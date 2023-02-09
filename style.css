@@ -1,0 +1,192 @@
+main{
+
+
+
+}
+
+header, nav, section, article, footer {
+border: 1px solid black;
+
+}
+
+nav {
+background-color: gray;
+padding:10px;
+
+}
+
+div {
+
+    display: inline;
+}
+
+#home {
+background-color: red;
+padding:12px;
+margin-left: -10px;
+}
+
+#menu {
+float: right;
+
+
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+    
+   
+
+}
+
+#menu a{
+    padding:8px;
+    border-left: 2px solid black ;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+article {
+
+    margin: 10px;
+    background-color: black;
+    color: gold;
+    width: 300px;
+}
+
+article header {
+
+    background-color: red;
+    color: white;
+}
+
+article:nth-child(6, 7) {
+
+
+
+}
+
+article:nth-child(6) {
+
+ width: 48.5%;
+
+}
+article:nth-child(7) {
+
+    width: 48.5%;
+   
+   }
+
+p {
+    margin: 10px;
+}
+
+
+footer {
+
+    text-align: center;
+    padding: 12px;
+}
+
+footer nav {
+    border: 1px solid black;
+padding: 8px;
+background-color: white;
+}
+
+footer nav a {
+color: red;
+margin: 18px;
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1630px) {
+
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+    }
+    
+    
+    
+    
+    
+    
+    article:nth-child(6) {
+    
+     width: 300px;
+    
+    }
+    article:nth-child(7) {
+    
+        width: 300px;
+       
+       }
+    
+
+
+
+
+  }
+
+
+  @media only screen and (max-width: 1310px) {
+
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    article {
+        width: 90%;
+
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    article:nth-child(6) {
+    
+        width: 90%;
+
+       
+       }
+       article:nth-child(7) {
+       
+        width: 90%;
+
+          
+          }
+}
